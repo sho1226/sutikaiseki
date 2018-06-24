@@ -6,7 +6,6 @@ import traceback
 
 #元配列の格納、及び型の変換
 arr = sys.argv[1:]
-#arr=list(range(100000)); random.shuffle(arr)
 arr = sort.str2float(arr)
 print("original array = ",arr)
 print("array length = ",len(arr))
